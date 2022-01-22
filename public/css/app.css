@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -93,6 +94,37 @@ header li a {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.section-buy {
+  background-color: #0282f9;
+}
+
+.section-buy ul {
+  display: flex;
+  padding: 15px 10px;
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-buy ul li {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.section-buy ul li img {
+  width: 40px;
+}
+
+.section-buy ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
 }
 
 footer #bg-footer {

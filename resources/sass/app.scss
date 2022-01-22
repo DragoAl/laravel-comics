@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 header {
     width: 75%;
@@ -89,6 +91,39 @@ header {
         object-fit: cover;
         object-position: top ;
     }
+}
+.section-buy {
+    background-color: #0282f9;
+
+    ul {
+    display: flex;
+    padding: 15px 10px;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+
+
+    li {
+        list-style: none;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+
+    }
+}
+
 }
 
 footer {
