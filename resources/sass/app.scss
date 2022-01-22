@@ -32,8 +32,152 @@ header {
 }
 
 #jumbotron {
-    color: blue;
     height: 300px;
     background-image: url('../../public/img/jumbotron.jpg');
     background-size: cover;
+}
+.section-container {
+    background-color:#1c1c1c ;
+    padding: 50px 0;
+    position: relative;
+
+    .comics-container {
+        width:75% ;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.btn-style {
+    width: 220px;
+    background-color: #0282f9;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tag-current-series {
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    bottom:95%;
+    left: 12%;
+}
+
+.btn-load {
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 50px auto 0px;
+    cursor: pointer;
+}
+.comics {
+    width: calc(100% / 6 - 30px);
+    height:180px;
+    margin: 10px 15px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase ;
+    cursor: pointer;
+    
+    img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        object-position: top ;
+    }
+}
+
+footer {
+    
+    #bg-footer {
+        background-image: url("../../public/img/footer-bg.jpg");
+        width: 100%;
+    
+        section {
+            background-image: url("../../public/img/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 45%;
+            width: 75%;
+            padding: 20px 0;
+            margin: 0px auto;
+            display: flex;
+
+            h4 {
+                color: white;
+                margin: 15px 20px;
+            }
+            ul {
+                margin: 0 20px;
+                li{
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        text-align: start;
+                        color:#898989 ;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+    }
+    
+
+    #footer-bottom {
+        background-color:#303030 ;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        
+        section {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                border: 1px solid #0282f9 ;
+                color: white;
+                background-color: #303030 ;
+                padding: 12px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color:#0282f9 ;
+                }
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+
+                h4 {
+                    color: #0281f7;
+                    margin-right: 18px;
+                }
+                
+                li {
+                    margin: 0 6px;
+                    display: inline-block;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+
+            }
+
+           
+        }
+    }
+    
 }
