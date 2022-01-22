@@ -94,12 +94,12 @@ Route::get('/', function () {
     ];
 
     return view('pages.products', compact('products'));
-});
+})-> name('products');
 
-// Route::get('test', function(){
-//     return view('pages.test');
+Route::get('comicBook', function(){
+    return view('pages.comicBook');
 
-// });
+})-> name('comicBook');
 
 
 
