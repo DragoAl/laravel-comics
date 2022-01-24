@@ -4733,13 +4733,28 @@ header li a {
   position: relative;
 }
 
-.blue-bar img {
-  border: 2px solid white;
-  margin: 0px auto;
-  height: 200px;
+.blue-bar div {
   position: absolute;
   bottom: 30%;
   left: 20%;
+}
+
+.blue-bar div img {
+  border: 2px solid white;
+  margin: 0px auto;
+  height: 200px;
+}
+
+.blue-bar div a {
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #00a9d9;
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+  color: white;
 }
 
 .container-comicBook-adv {
