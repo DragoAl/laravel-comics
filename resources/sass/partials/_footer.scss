@@ -1,0 +1,90 @@
+footer {
+    
+    #bg-footer {
+        background-image: url("../../../public/img/footer-bg.jpg");
+        width: 100%;
+    
+        section {
+            background-image: url("../../../public/img/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 45%;
+            width: 75%;
+            padding: 20px 0;
+            margin: 0px auto;
+            display: flex;
+
+            h4 {
+                color: white;
+                margin: 15px 20px;
+            }
+            ul {
+                margin: 0 20px;
+                li{
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        text-align: start;
+                        color:#898989 ;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+    }
+    
+
+    #footer-bottom {
+        background-color:#303030 ;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        
+        section {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                border: 1px solid #0282f9 ;
+                color: white;
+                background-color: #303030 ;
+                padding: 12px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color:#0282f9 ;
+                }
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+
+                h4 {
+                    color: #0281f7;
+                    margin-right: 18px;
+                }
+                
+                li {
+                    margin: 0 6px;
+                    display: inline-block;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+
+            }
+
+           
+        }
+    }
+    
+}

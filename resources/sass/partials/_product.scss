@@ -1,0 +1,87 @@
+.section-container {
+    background-color:#1c1c1c ;
+    padding: 50px 0;
+    position: relative;
+
+    .comics-container {
+        width:75% ;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.btn-style {
+    width: 220px;
+    background-color: #0282f9;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tag-current-series {
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    bottom:95%;
+    left: 12%;
+}
+
+.btn-load {
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 50px auto 0px;
+    cursor: pointer;
+}
+.comics {
+    width: calc(100% / 6 - 30px);
+    height:180px;
+    margin: 10px 15px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase ;
+    cursor: pointer;
+    
+    img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        object-position: top ;
+    }
+}
+.section-buy {
+    background-color: #0282f9;
+
+    ul {
+    display: flex;
+    padding: 15px 10px;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+
+
+    li {
+        list-style: none;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+
+    }
+}
+
+}

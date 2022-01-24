@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 header {
   width: 75%;
   margin: 0px auto;
@@ -127,6 +120,83 @@ header li a {
   margin-left: 8px;
 }
 
+.blue-bar {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  background-color: #0282f9;
+  position: relative;
+}
+
+.blue-bar img {
+  margin: 0px auto;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+
+.container-comicBook-adv {
+  width: 60%;
+  margin: 0 auto 40px;
+  display: flex;
+}
+
+.container-comicBook-adv .container-info-comic {
+  width: 80%;
+}
+
+.container-comicBook-adv .container-info-comic .comicBook-title {
+  margin: 25px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container-comicBook-adv .container-info-comic .green-infobar {
+  width: 100%;
+  height: 50px;
+  background-color: #55ba59;
+}
+
+.container-comicBook-adv .container-info-comic p {
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+.container-comicBook-adv .advertising {
+  width: 20%;
+}
+
+.container-comicBook-adv .advertising .advertising-banner {
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  background-color: violet;
+}
+
+.info-comic {
+  width: 100%;
+  height: 400px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.info-comic section {
+  width: 30%;
+  margin: 10px 0;
+}
+
+.info-comic section h6 {
+  margin: 5px 0;
+  display: inline-block;
+  width: 50px;
+}
+
+.info-comic section span {
+  margin: 0 20px;
+}
+
 footer #bg-footer {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   width: 100%;
@@ -209,5 +279,12 @@ footer #footer-bottom section div li {
 
 footer #footer-bottom section div li img {
   width: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
