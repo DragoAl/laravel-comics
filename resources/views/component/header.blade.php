@@ -1,6 +1,7 @@
 <header>
-    
+        
     <img src="{{asset('/img/dc-logo.png')}}" alt="logo">
+    
     <ul>
         <li>CHARACTERS</li>
         <li>COMICS</li>
@@ -13,4 +14,5 @@
         <li>NEWS</li>
         <li>SHOP</li>
     </ul>
+    
 </header>

@@ -97,6 +97,7 @@ Route::get('/', function () {
 })-> name('products');
 
 Route::get('comicBook', function(){
+    
     return view('pages.comicBook');
 
 })-> name('comicBook');
