@@ -27,7 +27,7 @@ header li a {
 
 #jumbotron {
   height: 300px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("/storage/jumbotron.jpg");
   background-size: cover;
 }
 
@@ -198,12 +198,12 @@ header li a {
 }
 
 footer #bg-footer {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/storage/footer-bg.jpg");
   width: 100%;
 }
 
 footer #bg-footer section {
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url("/storage/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 45%;

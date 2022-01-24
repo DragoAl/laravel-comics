@@ -1,11 +1,15 @@
 footer {
     
     #bg-footer {
-        background-image: url("../../../public/img/footer-bg.jpg");
+        // background-image: url("../../../public/img/footer-bg.jpg");
+        background-image: url("/storage/footer-bg.jpg");
+
         width: 100%;
     
         section {
-            background-image: url("../../../public/img/dc-logo-bg.png");
+            // background-image: url("../../../public/img/dc-logo-bg.png");
+            background-image: url("/storage/dc-logo-bg.png");
+
             background-repeat: no-repeat;
             background-position: right;
             background-size: 45%;

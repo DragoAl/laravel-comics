@@ -1,5 +1,7 @@
 #jumbotron {
     height: 300px;
-    background-image: url('../../../public/img/jumbotron.jpg');
+    // background-image: url('../../../public/img/jumbotron.jpg');
+    background-image: url('/storage/jumbotron.jpg');
+
     background-size: cover;
 }

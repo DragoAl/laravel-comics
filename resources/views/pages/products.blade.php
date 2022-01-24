@@ -22,23 +22,23 @@
     <section class="section-buy">
         <ul>
             <li>
-                <img src="{{asset('/img/buy-comics-digital-comics.png')}}"  alt="info.text">  
+                <img src="{{asset('storage/buy-comics-digital-comics.png')}}"  alt="info.text">  
                 <a href="#"> DIGITAL COMICS</a>
             </li>
             <li>
-                <img src="{{asset('/img/buy-comics-merchandise.png')}}"  alt="info.text">  
+                <img src="{{asset('storage/buy-comics-merchandise.png')}}"  alt="info.text">  
                 <a href="#"> DC MERCHANDISE</a>
             </li>
             <li>
-                <img src="{{asset('/img/buy-comics-subscriptions.png')}}"  alt="info.text">  
+                <img src="{{asset('storage/buy-comics-subscriptions.png')}}"  alt="info.text">  
                 <a href="#"> SUBSCRIPTION</a>
             </li>
             <li>
-                <img src="{{asset('/img/buy-comics-shop-locator.png')}}"  alt="info.text">  
+                <img src="{{asset('storage/buy-comics-shop-locator.png')}}"  alt="info.text">  
                 <a href="#"> COMIC SHOP LOCATOR</a>
             </li>
             <li>
-                <img src="{{asset('/img/buy-dc-power-visa.svg')}}"  alt="info.text">  
+                <img src="{{asset('storage/buy-dc-power-visa.svg')}}"  alt="info.text">  
                 <a href="#"> DC POWER VISA</a>
             </li>
         </ul>

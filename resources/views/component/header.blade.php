@@ -1,6 +1,6 @@
 <header>
         
-    <img src="{{asset('/img/dc-logo.png')}}" alt="logo">
+    <img src="{{asset('storage/dc-logo.png')}}" alt="logo">
     
     <ul>
         <li>CHARACTERS</li>

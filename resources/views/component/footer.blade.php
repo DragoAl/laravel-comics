@@ -62,19 +62,19 @@
            
                 <ul>
                     <li >
-                        <a href=""><img src="{{asset('/img/footer-facebook.png')}}" alt="facebbok"></a>
+                        <a href=""><img src="{{asset('storage/footer-facebook.png')}}" alt="facebbok"></a>
                     </li>
                     <li >
-                        <a href=""><img src="{{asset('/img/footer-twitter.png')}}" alt="twitter"></a>
+                        <a href=""><img src="{{asset('storage/footer-twitter.png')}}" alt="twitter"></a>
                     </li>
                     <li >
-                        <a href=""><img src="{{asset('/img/footer-youtube.png')}}" alt="youtube"></a>
+                        <a href=""><img src="{{asset('storage/footer-youtube.png')}}" alt="youtube"></a>
                     </li>
                     <li >
-                        <a href=""><img src="{{asset('/img/footer-pinterest.png')}}" alt="pinterest"></a>
+                        <a href=""><img src="{{asset('storage/footer-pinterest.png')}}" alt="pinterest"></a>
                     </li>
                     <li >
-                        <a href=""><img src="{{asset('/img/footer-periscope.png')}}" alt="periscope"></a>
+                        <a href=""><img src="{{asset('storage/footer-periscope.png')}}" alt="periscope"></a>
                     </li>
                 </ul>
 
