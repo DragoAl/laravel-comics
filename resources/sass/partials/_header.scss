@@ -20,7 +20,17 @@ header {
             font-weight: bold;
             padding-bottom: 40px ;
             transition-duration: 0.2s;
-     
+            &.active {
+                color: #0282f9 ;
+                border-bottom: 3px solid #0282f9;
+                padding-bottom: 38px;
+            }
+
+            &:hover {
+                color: #0282f9 ;
+                border-bottom: 3px solid #0282f9;
+                padding-bottom: 38px;
+            }
         }   
     }
 }
