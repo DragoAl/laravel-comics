@@ -33,16 +33,16 @@
         <section>
             <h3>Specs</h3>
             <div>
-                <h6>Series:</h6>
+                <div>Series:</div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 </span>
             </div>
             <div>
-                <h6>U.S. Price</h6>
+                <div>U.S. Price</div>
                 <span>$20 </span>
             </div>
             <div>
-                <h6>On Sale Date:</h6>
+                <div>On Sale Date:</div>
                 <span>october 2004 </span>
             </div>
            
